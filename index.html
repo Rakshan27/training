@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        body {
+            background-color: grey;
+        }
+
+        .member-img {
+            position: absolute;
+
+        }
+    </style>
+
+    <title>work day1</title>
+</head>
+
+<body>
+
+
+    <div class="row row-cols-md-1 row-cols-md g-4">
+
+
+        <div class="col col-md-4 ">
+            <div class="row gap-3">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="col-md-12 ">
+                            <h3>Profile</h3>
+                            <div class="d-flex justify-content-center">
+                                <img src="https://yt3.googleusercontent.com/ytc/AMLnZu_Lgt4iKmrY-7eEg2Y_sqOIw0MXuWDykXI2is-q=s900-c-k-c0x00ffffff-no-rj"
+                                    class="img-fluid" alt="..." style="width: 4em;border-radius: 50%;">
+                            </div>
+                            <div class="d-flex gap-2 justify-content-center">
+                                <h4 style="text-align: center;" id="myName">Rakshan
+                                </h4>
+                                <h4 style="text-align: center;" id="myLastName">Kumar</h4>
+                            </div>
+                            <div class="d-flex gap2 justify-content-center">
+                                <p style="color: blue;text-align: center;" id="myState">Andhra Pradesh
+                                </p>
+                                <p>,</p>
+                                <p style="color: blue;text-align: center;" id="myCountry">India</p>
+                            </div>
+                            <h5>Email</h5>
+                            <p id="myEmail">custmor@gmail.com</p>
+                            <h5>Phone</h5>
+                            <p id="myPhoneNumber">+00000000000</p>
+                            <h5>Location</h5>
+                            <p id="myAddress">ankapalli, laxmi devi peta,531001</p>
+                            <h6>Activity</h6>
+                            <p style="color: rgb(7, 253, 7);"><span id="myUserName" style="color: blue;"></span> active
+                            </p>
+                            <h6>Total Earn</h6>
+
+                            <h3><span>&#8377;</span>
+                                1,00,000</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col ">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="col-md-12 ">
+                                <h3>Members</h3>
+                                <div class="overflow-auto text-center">
+                                    <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/best-animated-movies-2019-1569510464.jpg?crop=0.502xw:1.00xh;0.498xw,0&resize=640:*"
+                                        class="img-fluid" alt="..."
+                                        style="width: 3em;border-radius: 50%;margin-left: 1.5cm;position: absolute;"
+                                        class="member-img">
+                                    <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/best-animated-movies-2019-1569510464.jpg?crop=0.502xw:1.00xh;0.498xw,0&resize=640:*"
+                                        class="img-fluid" alt="..."
+                                        style="width: 3em;border-radius: 50%;overflow: auto;position: absolute;margin-left: 2cm;"
+                                        class="member-img">
+                                    <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/best-animated-movies-2019-1569510464.jpg?crop=0.502xw:1.00xh;0.498xw,0&resize=640:*"
+                                        class="img-fluid" alt="..." style="width: 3em;border-radius: 50%;"
+                                        class="member-img">
+                                    <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/best-animated-movies-2019-1569510464.jpg?crop=0.502xw:1.00xh;0.498xw,0&resize=640:*"
+                                        class="img-fluid" alt="..." style="width: 3em;border-radius: 50%;"
+                                        class="member-img">
+                                    <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/best-animated-movies-2019-1569510464.jpg?crop=0.502xw:1.00xh;0.498xw,0&resize=640:*"
+                                        class="img-fluid" alt="..." style="width: 3em;border-radius: 50%;"
+                                        class="member-img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+        <div class="col col-md-8 ">
+            <div class="card">
+
+                <div class="card-body">
+                    <div class="col-md-12">
+                        <form class="row g-3">
+                            <div class="d-md-flex justify-content-between">
+                                <h3>Profile Settings</h3>
+
+                            </div>
+                            <div class="col-md-6">
+                                <form action="">
+                                    <label for="firstName" class="form-label">First Name</label>
+                                    <input type="text" class="form-control" id="firstName"
+                                        placeholder="type your first name" style="background-color:rgb(241, 241, 207);">
+                                    <span id="firstNameErr" style="display: none;color:red">Enter correct name dont
+                                        leave
+                                        empty</span>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="lastName" class="form-label">Last Name</label>
+                                <input type="text" class="form-control" id="lastName" placeholder="type your last name"
+                                    style="background-color:rgb(241, 241, 207);"> <span id="lastNameErr"
+                                    style="display: none;color:red">Enter correct name dont
+                                    leave
+                                    empty</span>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="userName" class="form-label">User Name</label>
+                                <input type="text" class="form-control" id="userName"
+                                    placeholder="type your user name here" style="background-color:rgb(241, 241, 207);">
+                                <span id="userNameErr" style="display: none;color:red">Enter correct user name dont
+                                    leave
+                                    empty</span>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="email1" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email1" placeholder="type your email here"
+                                    style="background-color:rgb(241, 241, 207);"><span id="emailErr"
+                                    style="display: none;color:red">Enter correct email adress please mention @</span>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="phoneNumber" class="form-label">Phone</label>
+                                <input type="number" class="form-control" id="phoneNumber"
+                                    placeholder="type your phone number"
+                                    style="background-color:rgb(241, 241, 207);"><span id="phoneNumberErr"
+                                    style="display: none;color:red">Enter correct phone number </span>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="contry" class="form-label">country</label>
+                                <select class="form-select" style="background-color:rgb(241, 241, 207);" id="country">
+                                    <option value="">--select--</option>
+                                    <option value="India">India</option>
+                                    <option value="Pakistan">Pakistan</option>
+                                    <option value="Srilanka">Srilanka</option>
+                                    <option value="Bangladesh">Bangladesh</option>
+                                    <option value="others">others</option>
+                                </select><span id="countryErr" style="display: none;color:red">Please select any one
+                                </span>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="state" class="form-label">State</label>
+                                <input type="text" class="form-control" id="state" placeholder="type your state"
+                                    style="background-color:rgb(241, 241, 207);"><span id="stateErr"
+                                    style="display: none;color:red">Enter correct input dont leave empty </span>
+
+                            </div>
+                            <div class="col-md-6">
+                                <label for="adress" class="form-label">Adress</label>
+                                <input type="text" class="form-control" id="adress" placeholder="type your address"
+                                    style="background-color:rgb(241, 241, 207);"><span id="addressErr"
+                                    style="display: none;color:red">Enter correct input dont leave empty </span>
+
+                            </div>
+                            <h3>Account Settings</h3>
+                            <div class="col-md-6">
+                                <label for="language" class="form-label">Default Language</label>
+                                <select class="form-select" style="background-color:rgb(241, 241, 207);" id="language">
+                                    <option value="">--select--</option>
+                                    <option value="English">English</option>
+                                    <option value="Telugu">Telugu</option>
+                                    <option value="Hindi">Hindi</option>
+                                    <option value="Tamil">Tamil</option>
+                                </select><span id="languageErr" style="display: none;color:red">Please select any one
+                                </span>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="currency" class="form-label">currency</label>
+                                <select id="currency" class="form-select" id="currency"
+                                    style="background-color:rgb(241, 241, 207);">
+                                    <option value="">--select--</option>
+                                    <option value="Rupess">Rupess</option>
+                                    <option value="USD">USD</option>
+
+                                </select><span id="currencyErr" style="display: none;color:red">Please select any one
+                                </span>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-check">
+                                    <div class="d-md-flex justify-content-between">
+                                        <div>
+                                            <input class="form-check-input" type="checkbox" id="gridCheck" required>
+
+
+
+
+                                            <label class="form-check-label" for="gridCheck">
+                                                recieve push notification
+                                            </label>
+                                        </div>
+                                        <button type="submit" onclick="displayData()"
+                                            style="padding:0rem 2rem;text-align: center;font-size: large;background-color:rgb(60, 89, 253);color: white;font-size: larger;"
+                                            id="save"><b>save</b></button>
+
+                                    </div>
+                                </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </form>
+
+    </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
