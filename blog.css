@@ -1,0 +1,164 @@
+body {
+    background-color: rgb(232, 232, 248);
+    font-size: small;
+}
+
+.container {
+    margin-top: 1rem;
+
+
+
+}
+
+.blog_img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+.blog_profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog_search_bar {
+    background-color: white;
+    border-radius: 1rem;
+    margin: 1rem 0rem 1rem 1rem;
+    align-items: center;
+    padding: 5px;
+
+}
+
+.blog_btn_row {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0rem 1rem 1rem;
+}
+
+.blog_btn1 {
+    background-color: green;
+    color: white;
+}
+
+.blog_btn2 {
+    background-color: blue;
+    color: white;
+}
+
+.table_search_row {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    font-size: small;
+    align-items: center;
+}
+
+.btn-secondary {
+    background-color: white;
+    color: black;
+}
+
+.card {
+    margin-left: 1rem;
+    padding-top: 1rem;
+    border-radius: 1rem;
+}
+
+.blog_bottom_icon {
+    border: 0px;
+}
+
+.table {
+    margin: 1rem 0rem 0rem 1rem;
+    background-color: ;
+    width: 53rem;
+    height: 0rem;
+    font-size: smaller;
+}
+
+.blog_drop {
+    background-color: rgb(165, 196, 255);
+    border: 0px;
+}
+
+.blog_table_btn {
+    border-radius: 2rem;
+    padding: 0px 6px 2px 6px;
+    font-size: smaller;
+}
+
+.blog_table_row1 {
+    background-color: rgb(165, 196, 255);
+}
+
+.bottom_row {
+    padding: 1rem;
+    display: flex;
+    gap: 7px;
+    height: 4rem;
+    margin-left: 1rem;
+    align-items: center;
+
+}
+
+.blog_table_row2 {
+    background-color: rgb(206, 222, 253);
+}
+
+.blog_table_row3 {
+    background-color: white;
+}
+
+.input_bottom {
+    width: 3rem;
+}
+
+.bottom_dropup {
+    padding: 1rem;
+}
+
+.table_search1 {
+    border: 1px solid grey;
+    padding: 5px;
+    margin-left: 1rem;
+    border-radius: 5px;
+}
+
+.blog_btn_row1 {
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+
+}
+
+.blog_btn1,
+.blog_btn2 {
+    border-radius: 5px;
+    border: 0px;
+}
+
+.blog_img1 {
+    display: flex;
+    gap: 1rem;
+}
+
+.blog_side_menu {
+    display: flex;
+    gap: 2rem;
+    color: grey;
+    padding-top: 5px;
+}
+
+.side_menu_main {
+    margin-top: 2rem;
+}
+
+.not_btn {
+    background-color: rgb(165, 163, 163);
+}
+
+.col_bar {
+    border-top: 1px solid rgb(202, 198, 198);
+}
