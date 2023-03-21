@@ -1,0 +1,49 @@
+body {
+    background-image: url(https://wallpapercave.com/wp/Ex9MlTC.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main_btn {
+    background-color: green;
+    color: white;
+    border: 0px;
+    border-radius: 0px 5px 5px 0px;
+
+}
+
+.main_btn:hover {
+    background-color: yellowgreen;
+}
+
+.main_btn2 {
+    background-color: green;
+    color: white;
+    border: 0px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.container {
+    margin-top: 3rem;
+}
+
+#selected_btn {
+    background-color: rgb(252, 119, 119);
+    color: aliceblue;
+    border: 0px solid red;
+}
+
+#to_list {
+    background-color: aliceblue;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+#selected_del {
+    border: 0px solid black;
+    width: 4rem;
+    border-radius: 5px;
+
+
+}
