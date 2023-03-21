@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music ALBUM</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: grey;
+        }
+
+        /* #list_add:hover {
+            background-color: greenyellow;
+        } */
+    </style>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+        integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <div class="container card" style="padding: 1rem;">
+        <div class="row">
+            <div class="col-md-1 d-md-flex flex-md-column justify-content-between"
+                style="background-color:rgb(6, 76, 133);color: white;padding: 1rem 1rem 2rem 1rem;border-radius: 2rem  0rem 0rem 2rem;">
+                <div class="row-md-4">
+                    <h5>Noicy</h5>
+                </div>
+                <div class="row-md-6" style="font-size:2rem;padding: 1rem;">
+                    <p><i class="bi bi-house"></i></p>
+                    <p><i class="bi bi-person-circle"></i></p>
+                    <p><i class="bi bi-stack"></i></p>
+                    <p><i class="bi bi-heart"></i></p>
+                    <p><i class="bi bi-mic"></i></p>
+
+                </div>
+                <div style="height: 4rem;width: 4rem;">
+                    <img src="https://th.bing.com/th/id/OIP.J4Wq7YIuZOL-X57vRjVZTQHaIy?pid=ImgDet&w=207&h=245&c=7"
+                        alt="" style="height: 100%;width: 100%;border-radius: 2rem;">
+                </div>
+            </div>
+            <div class="col-md-8 " style="padding: 1rem 2rem 0rem 3rem;background-color:rgb(54, 53, 53);">
+                <div class="row ">
+                    <div class="d-md-flex gap-md-5" style="color: white;">
+                        <h5>New Music</h5>
+                        <h5>Friends</h5>
+                        <h5>Radio</h5>
+                    </div>
+                    <div class="row ">
+                        <div class="d-md-flex justify-content-start"
+                            style="height: 10rem;width:60rem ;border: 0rem;padding: 1rem 0rem 1rem 0rem;color: white;">
+                            <img src="https://th.bing.com/th/id/OIP.Wo41xbPOaojaMeUy9nCxGQHaHa?pid=ImgDet&w=207&h=207&c=7"
+                                alt="" style=" height: 100%;width: 100%;border-radius: 3rem;" id="changeImg">
+                            <h2 style="position: absolute;padding: 30px;" id="changeMainTitle">Classic</h2>
+                            <h5 style="position: absolute;padding: 90px;" id="changeMaintime">0:00</h5>
+
+
+                            <i class="fa-regular fa-circle-pause"
+                                style="position: absolute;padding:50px 10px 0px 40rem ;font-size: larger;"></i>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row" style="color:white;" id="list_add">
+
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3"
+                style="background-color:rgb(6, 76, 133);color: white;padding: 1rem 0rem 0rem 0.5rem;border-radius: 0rem  2rem 2rem 0rem;">
+                <div class="row gap-md-2" style="padding: 0rem 0rem 0rem 1rem;">
+                    <div class="col-md-9 "
+                        style="background-color: rgb(143, 140, 140);border-radius: 2rem;text-align: center;height: 1.5rem;">
+                        <div class="d-md-flex gap-md-0 " style="align-content: center;color: black;">
+
+                            <i class="bi bi-search"
+                                style="padding: 0rem 1rem 0.5rem 1rem;color: black;height:1rem;"></i>
+                            <p style="align-items:center;font-size: small ;">search your
+                                favourite...... </p>
+
+                        </div>
+                    </div>
+                    <div class="col-md-2 "
+                        style="background-color: rgb(143, 140, 140) ;padding: 0rem 1rem 0rem 1rem;border-radius: 1rem;font-size: larger;text-align: justify;color: black;height:1.5rem">
+                        <i class="bi bi-bell" style="padding-top: 2rem;"></i>
+                    </div>
+                </div>
+                <div style="padding-top:2rem ;">
+                    <h5>Search Tag</h5>
+                </div>
+                <div>
+                    <div class="d-flex justify-content-md-start gap-md-1" style="color: black;font-size: smaller;">
+                        <div class="d-flex"
+                            style="background-color: rgb(143, 140, 140) ;height: 1.5rem;border-radius: 1rem;padding-right:0.5rem;">
+                            <i class="bi bi-x"></i>
+                            <p>Hip Hop</p>
+                        </div>
+                        <div class="d-flex"
+                            style="background-color: rgb(143, 140, 140) ;height:    1.5rem;border-radius: 1rem;padding-right:0.5rem;">
+                            <i class="bi bi-x"></i>
+                            <p>Hindi</p>
+                        </div>
+                        <div class="d-flex"
+                            style="background-color: rgb(143, 140, 140) ;height: 1.5rem;border-radius: 1rem;padding-right:0.5rem;">
+                            <i class="bi bi-x"></i>
+                            <p>Punjabi</p>
+                        </div>
+
+                    </div>
+                    <div class="d-flex justify-content-md-end gap-md-1"
+                        style="color: black;padding: 1rem 0.5rem;font-size: smaller;">
+                        <div class="d-flex"
+                            style="background-color: rgb(143, 140, 140) ;height:1.5rem;border-radius: 1rem;padding-right:0.5rem;">
+                            <i class="bi bi-x"></i>
+                            <p>Tamil</p>
+                        </div>
+                        <div class="d-flex"
+                            style="background-color: rgb(143, 140, 140) ;height:1.5rem;border-radius: 1rem;padding-right:0.5rem;">
+                            <i class="bi bi-x"></i>
+                            <p>English</p>
+                        </div>
+                        <div class="d-flex"
+                            style="background-color: rgb(143, 140, 140) ;height: 1.5rem;border-radius: 1rem;padding-right:0.5rem;">
+                            <i class="bi bi-x"></i>
+                            <p>Telugu</p>
+                        </div>
+                        <div class="d-flex"
+                            style="background-color: rgb(143, 140, 140) ;height: 1.5rem;border-radius: 1rem;padding-right:0.5rem;">
+                            <i class="bi bi-x"></i>
+                            <p>Kannada</p>
+                        </div>
+                    </div>
+                    <div style="padding-top:2rem ;">
+                        <h5>New Podcast</h5>
+                    </div>
+                    <div class="d-flex gap-md-2" style="padding-left:0rem ;">
+                        <div style="height: 5rem;width: 5.2rem;">
+                            <img src="https://th.bing.com/th/id/OIP.YAMNffybyJtiuBtXJQByMgHaHa?w=172&h=180&c=7&r=0&o=5&pid=1.7"
+                                alt="" style="border-radius: 1rem;height: 100%;width: 100%;">
+                        </div>
+                        <div style="height: 5rem;width: 5.2rem;">
+                            <img src="https://th.bing.com/th/id/OIP.GANII6cLRXCif906WXNMjgHaHa?w=179&h=180&c=7&r=0&o=5&pid=1.7"
+                                alt="" style="border-radius: 1rem;height: 100%;width: 100%;">
+                        </div>
+                        <div style="height: 5rem;width: 5.2rem;">
+                            <img src="https://th.bing.com/th/id/OIP.4PXWH2c7Nt_8ykRCrOt4xwHaFD?w=271&h=185&c=7&r=0&o=5&pid=1.7"
+                                alt="" style="border-radius: 1rem;height: 100%;width: 100%;">
+                        </div>
+                    </div>
+
+                    <h2 style="color:whitesmoke;margin-top: 2rem;">ADD ALBUM</h2>
+                    <div class="" style="margin:1rem 0rem 0rem 0rem">
+                        <div class="d-flex justify-content-between">
+                            <label for="">Img Url :</label><input type="text" id="url_input">
+                        </div>
+                        <div class="d-flex justify-content-between"><label for="">TITLE :</label><input type="text"
+                                name="" id="title_input"></div>
+                        <div class="d-flex justify-content-between"><label for="" style="font-size: small;">Descripation
+                                :</label><input type="text" id="des_input"></div>
+                        <div class="d-flex justify-content-between"> <label for="">Duration :</label><input type="time"
+                                name="" id="dur_input" style="width:6.5rem;margin-right: 5rem">
+                        </div>
+                        <div class="d-flex flex-column" style="margin-top: 1rem;"><button
+                                style="background-color:rgb(247, 196, 101);margin-bottom: 1rem;"
+                                onclick="addAlbum()">ADD</button></div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+    <script src="music_album1.js"></script>
+</body>
+
+</html>
